@@ -1,4 +1,4 @@
-
+import streamlit as st
 import os
 os.environ['GEMINI_API_KEY'] = st.secrets['GEMINI_API_KEY']
 
@@ -12,7 +12,6 @@ tweet_prompt = PromptTemplate(template = tweet_template, input_variables = ["num
 gemini3 = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 tweet_Chain = tweet_prompt | gemini3
 
-import streamlit as st
 
 st.header("Tweet EZ by VJ")
 

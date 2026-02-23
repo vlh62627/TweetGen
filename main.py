@@ -1,6 +1,6 @@
 
 import os
-os.environ['GEMINI_API_KEY'] = st.secrets["GEMINI_API_KEY"]
+os.environ['GEMINI_API_KEY'] = st.secrets['GEMINI_API_KEY']
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 

@@ -13,7 +13,7 @@ gemini3 = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 tweet_Chain = tweet_prompt | gemini3
 
 
-st.header("Tweet EZ by VJ")
+st.header("Tweet VeeZ")
 
 st.subheader("Generate Tweets using AI")
 

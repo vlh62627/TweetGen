@@ -14,7 +14,7 @@ tweet_Chain = tweet_prompt | gemini3
 
 import streamlit as st
 
-st.header("Tweet Generator")
+st.header("Tweet EZ by VJ ")
 
 st.subheader("Generate Tweets using AI")
 
